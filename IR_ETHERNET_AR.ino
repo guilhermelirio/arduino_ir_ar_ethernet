@@ -25,7 +25,7 @@ void setup() {
   Ethernet.begin(mac, ip, gateway, subnet); //COMEÇAR O ETHERNET SHIELD, COM OS DADOS ACIMA
   server.begin(); //COMECAR O WEBSERVER
   Serial.begin(9600);  //HABILITAR O SERIAL
-  //Serial.println("Arduino + Ethernet Shield + TV"); //IMPRIMIR NO SERIAL
+  Serial.println("Arduino + Ethernet Shield + TV"); //IMPRIMIR NO SERIAL
 }
 
 void loop() {
