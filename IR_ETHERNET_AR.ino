@@ -1,4 +1,4 @@
-/*  Arduino + Ethernet Shield + TV
+/*  Arduino + Ethernet Shield + AR
     Versão: 1.0
     Feito por Guilherme Lirio Tomasi de Oliveira
     Retirado de: http://arduinodemcu.blogspot.com
@@ -25,7 +25,7 @@ void setup() {
   Ethernet.begin(mac, ip, gateway, subnet); //COMEÇAR O ETHERNET SHIELD, COM OS DADOS ACIMA
   server.begin(); //COMECAR O WEBSERVER
   Serial.begin(9600);  //HABILITAR O SERIAL
-  Serial.println("Arduino + Ethernet Shield + TV"); //IMPRIMIR NO SERIAL
+  Serial.println("Arduino + Ethernet Shield + AR"); //IMPRIMIR NO SERIAL
 }
 
 void loop() {
